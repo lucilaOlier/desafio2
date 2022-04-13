@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+      <div style="text-align:center; margin: 50px 0px;">
+         <h1 class="titulo">Ahorcado</h1>
+   
+      </div>
+      <div style="text-align:center">
+         <input style="text-transform: uppercase;" class="text-input" type="text" id="letra" maxlength="1" placeholder="Escriba una nueva palabra">
+         <div id="frase"></div>
+         <button class="btn" id="calcular">AGREGAR LETRA</button> 
+        <div class="text" id="vida"> el numero de vidas que quedan son: 4</div>
+
+      </div>
+
+      <div style="text-align:center;">
+
+        <section>
+          <canvas id="ahorcado"></canvas>
+        </section>
+
+      </div>
+
+   
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="ahorcado.js"></script>
+  </body>
+</html>

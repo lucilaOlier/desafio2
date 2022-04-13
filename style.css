@@ -1,0 +1,65 @@
+
+.titulo {
+  padding: 15px;
+  width: 250px;
+  margin: auto;
+  font-family: 'Beau Rivage' , cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #972F2F;
+
+}
+
+#calcular{
+  border: 0;
+  color: black;
+  font-weight: bold;
+  background-color: #972F2F;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+
+#letra {
+
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #972F2F;
+}
+
+#seccion{
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 1rem;
+  width: 40%;
+
+}
+#ahorcado{
+  border: 2px solid darkred;
+  width:400px;
+  height: 300px;
+}
+
+#frase{
+  border-color: #0000;
+}
+
+#vida{
+    font-size: 40px;
+    font-family: 'Beau Rivage' , cursive;
+    color: #972F2F;
+    font-weight: 2000px;
+    font-style: normal;
+}
